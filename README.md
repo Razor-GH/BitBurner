@@ -6,8 +6,11 @@ Also, I have never beginning in Javascript. But I did manage to make my way arou
 wrap my head around Javascript. I think I did pretty good so far...
 
 Batcher folder contains programs and scripts that are used to coordinate/schedule multiple actions to automate resources, growth, and stability in a percise order. Each action taken calculates the delay and time needed before the next one starts. Within a batch the three actions are, weaken (reduces instability), grow (restore resources but lowers stability)), hack (extracts resources but lowers stability).
+
 Sequential Batcher: Is used for single targetted automation of one in-game server and adapts to the conditions for that server.
+
 Protohack: Is single targetted but stores scripts on the biggest server after scanning and unlocking each server .
+
 ShotgunHack: Is a multi-targetted automation on all possible servers that manages all of the server conditions and scheduled actions per server. 
 
 GangManager: 
