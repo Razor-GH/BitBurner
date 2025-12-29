@@ -10,7 +10,7 @@ export async function main(ns) {
   let mePlayer = ns.getPlayer();
   let delay = 0;
 
-  //giant ass calculations
+  //Giant part of the code used to calculate the number of threads per server needed to reach the desired amount of each action 
   ns.print("Big Calculations!!!");
   let moneyThresh = ns.getServerMoneyAvailable(target) * 0.55;
   let perHackThread = ns.hackAnalyze(target) * ns.getServerMoneyAvailable(target);
@@ -90,7 +90,7 @@ export async function main(ns) {
   ns.print("server unlocked!");
   ns.print("RAMNET" + ramNet);
   ns.print("Added server to RamNet successfully");
-  //actually trying to run them but probably failing misserably
+//Attempting to run each one on a server
   if (ramNet.length != 0) {
     while (true) {
       ns.print("Big Calculations!!!");
